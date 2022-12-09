@@ -28,6 +28,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development, :test do
+  gem 'psych', '< 4'
   gem 'rspec-rails', '~> 5.0.0'
 end
 
